@@ -1,0 +1,21 @@
+{
+  "name": "playing-around",
+  "version": "0.1.0",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-jshint": "~0.7",
+    "grunt-contrib-connect": "~0.5",
+    "grunt-contrib-sass": "~0.5.1",
+    "grunt-contrib-requirejs": "~0.4.1",
+    "grunt-contrib-watch": "~0.5",
+    "grunt-contrib-concat": "~0.3",
+    "glob": "~3.2",
+    "grunt-concurrent": "~0.4.2"
+  },
+  "scripts": {
+    "build": "grunt build",
+    "test": "grunt test"
+  },
+  "private": true
+}

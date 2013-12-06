@@ -1,0 +1,11 @@
+# Emacs things
+*~
+\#*#
+
+# Sublime things
+*.sublime-*
+
+node_modules/
+.sass-cache
+
+build/*
