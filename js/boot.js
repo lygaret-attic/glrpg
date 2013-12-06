@@ -3,11 +3,17 @@
 require.config({
     baseUrl : '/js',
 
+    paths   : {
+        assets: '../assets'
+    },
+
     shim    : {
-        'vendor/jquery' : { exports: '$' },
-        'vendor/pixi'   : { exports: 'PIXI' }
+        'vendor/pixi'   : { exports: 'PIXI' },
+        'vendor/stats'  : { exports: 'Stats' },
+
+        'vendor/poly.requestAnimationFrame' : { exports: 'requestAnimationFrame' }
     }
 });
 
 // start the application on domready
-require(["vendor/rjs.domready!", "main"], function(doc, main) { main(); });
+require(['vendor/rjs.domready!', 'main'], function(doc, main) { main(); });
