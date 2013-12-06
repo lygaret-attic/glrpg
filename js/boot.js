@@ -3,6 +3,10 @@
 require.config({
     baseUrl : '/js',
 
+    paths   : {
+        assets: '../assets'
+    },
+
     shim    : {
         'vendor/pixi'   : { exports: 'PIXI' },
         'vendor/stats'  : { exports: 'Stats' },
